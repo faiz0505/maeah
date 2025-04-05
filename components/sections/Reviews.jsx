@@ -1,4 +1,3 @@
-import { Star } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -10,7 +9,7 @@ import { testimonials } from "@/app/utils/dummyData";
 
 const Reviews = () => {
   return (
-    <section className="paddings py-10">
+    <section className="paddings py-10 mb-12">
       <Carousel
         opts={{ loop: true, auto: true, autoSpeed: 4000 , align: "start",}}
         className={"items-center justify-center flex"}

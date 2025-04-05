@@ -6,7 +6,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="mt-10 py-10 paddings bg-muted-gray/15 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    <footer className="py-10 paddings bg-muted-gray/15 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
       {footerLinks.map((category, index) => (
         <aside key={index}>
           {/* Section Title */}
@@ -31,7 +31,7 @@ const Footer = () => {
       ))}
       <aside className="text-center md:text-start col-span-full md:col-span-1">
       {/* Business Name (Placeholder for Logo) */}
-      <h2 className="text-dark-purple text-xl font-semibold">betterhelp business</h2>
+      <h2 className="text-dark-purple text-xl font-semibold">Maeah business</h2>
 
       {/* Social Media Links with Lucide Icons */}
       <div className="flex md:justify-start justify-center space-x-4 mt-4">

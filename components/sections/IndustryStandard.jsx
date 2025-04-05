@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { ShieldCheck, Lock, ClipboardList } from "lucide-react"; // Icons
 import CustomImage from "../CustomImage";
+import Link from "next/link";
 
 const standards = [
   {
@@ -25,7 +26,7 @@ const standards = [
 
 const IndustryStandard = () => {
   return (
-    <section className="py-16 bg-[#f5f1e9] paddings">
+    <section className="py-16 bg-beige paddings">
       {/* Top Section */}
       <div className="grid md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
         {/* Image */}
@@ -70,11 +71,9 @@ const IndustryStandard = () => {
           </div>
         ))}
       </div>
-
-      {/* Button */}
-      <div className="mt-12 flex justify-center">
+      <Link href="/demo" className="mt-12 flex justify-center">
         <Button size={"xl"} className={"rounded-full"}>Request a demo</Button>
-      </div>
+      </Link>
     </section>
   );
 };

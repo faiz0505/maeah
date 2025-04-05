@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { title: "EAP", url: "/eap" },
+    { title: "EAP", url: "/eap-offerings" },
     { title: "Employers", url: "/employers" },
     { title: "Brokers", url: "/brokers" },
     { title: "Other organizations", url: "/other-organizations" },
@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="paddings py-2 bg-[var(--color-soft-white)]">
+    <nav className="paddings py-3 bg-white">
       <div className="flex justify-between items-center">
         <div className="text-xl font-bold">Logo</div>
 
@@ -41,9 +41,11 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <Button className="rounded-full" size="lg">
-            Request A Demo
-          </Button>
+          <Link href="/demo">
+            <Button className="rounded-full" size="lg">
+              Request a demo
+            </Button>
+          </Link>
         </ul>
       </div>
 
@@ -60,9 +62,11 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <Button className="w-full rounded-full" size="lg">
-            Request A Demo
-          </Button>
+          <Link href="/demo">
+            <Button className="rounded-full" size="lg">
+              Request a demo
+            </Button>
+          </Link>
         </ul>
       )}
     </nav>

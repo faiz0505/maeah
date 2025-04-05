@@ -1,7 +1,6 @@
-"use client";
 import React from "react";
-import { cn } from "@/lib/utils";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const ClinicalApproach = () => {
   return (
@@ -17,12 +16,11 @@ const ClinicalApproach = () => {
             evidence-based results for companies seeking to improve employee
             wellbeing.
           </p>
-          <Button
-            className="w-fit rounded-full self-center md:self-start mt-6"
-            size="xl"
-          >
-            Request A Demo
-          </Button>
+          <Link href="/demo" className="w-fit self-center md:self-start">
+            <Button size={"xl"} className={"rounded-full mt-6"}>
+              Request a demo
+            </Button>
+          </Link>
         </div>
 
         {/* Stats Section */}

@@ -4,20 +4,21 @@ import HitrustCertification from "@/components/sections/HitrustCertification";
 import IndustryStandard from "@/components/sections/IndustryStandard";
 import OurPartners from "@/components/sections/OurPartners";
 import Reviews from "@/components/sections/Reviews";
-import { Button } from "@/components/ui/button";
 import React from "react";
-
-const page = () => {
+import Footer from "@/components/sections/Footer";
+import { homeHero } from "./utils/dummyData";
+const Page = () => {
   return (
     <div className="">
-      <Hero />
+      <Hero data={homeHero} />
       <OurPartners />
       <ClinicalApproach />
       <IndustryStandard />
       <HitrustCertification />
       <Reviews/>
+      <Footer/>
     </div>
   );
 };
 
-export default page;
+export default Page;
