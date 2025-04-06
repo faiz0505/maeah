@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Hero from "@/components/sections/Hero";
 import { eapHero } from "../utils/dummyData";
 import OurPartners from "@/components/sections/OurPartners";
@@ -10,15 +10,14 @@ const Page = () => {
   return (
     <div>
       <div>
-        <Hero data={eapHero}/>
-        <OurPartners/>
-        <SupportMetrics/>
+        <Hero data={eapHero} />
+        <OurPartners />
+        <SupportMetrics />
         <UserBenefits />
-        <Testimonial/>
-        <Footer/>
+        <Testimonial />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;
