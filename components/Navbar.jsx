@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
@@ -18,7 +18,9 @@ const Navbar = () => {
   return (
     <nav className="paddings py-3 bg-white">
       <div className="flex justify-between items-center">
-        <div className="text-xl font-bold">Logo</div>
+        <Link href="/" className="text-xl font-bold">
+          Logo
+        </Link>
 
         {/* Hamburger for small screens */}
         <button

@@ -59,7 +59,7 @@ export const testimonials = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Uber_logo_2018.svg",
     reviewer: "Ride-Share App Employee",
     description:
-      "It’s reassuring knowing therapy is just a message away. It's made a big impact on my well-being.",
+      "It's reassuring knowing therapy is just a message away. It's made a big impact on my well-being.",
     rating: 4,
   },
   {

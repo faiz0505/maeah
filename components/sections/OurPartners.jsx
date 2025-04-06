@@ -30,23 +30,6 @@ const OurPartners = () => {
     "https://assets.betterhelp.com/bhorg/15five.png?v=71aae1049dcd",
     "https://assets.betterhelp.com/bhorg/alvotech.png?v=71aae1049dcd",
     "https://assets.betterhelp.com/bhorg/city-harvest.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/epic.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/fostersource.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/gallagher.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/o-hub.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/lockton.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/mci.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/melita.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/noom.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/peckham.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/right-networks.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/rmu.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/sandy-hook.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/sew.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/sicpa.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/teach-for-america.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/huel.png?v=71aae1049dcd",
-    "https://assets.betterhelp.com/bhorg/mgc.png?v=71aae1049dcd",
   ];
 
   return (
@@ -58,7 +41,9 @@ const OurPartners = () => {
               loop: true,
               align: "center",
               duration: 50,
-              slidesToScroll: 6
+              slidesToScroll: 2,
+              auto: true,
+              autoSpeed: 4000,
             }}
             className="relative px-8"
           >

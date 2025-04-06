@@ -5,7 +5,6 @@ import IndustryStandard from "@/components/sections/IndustryStandard";
 import OurPartners from "@/components/sections/OurPartners";
 import Reviews from "@/components/sections/Reviews";
 import React from "react";
-import Footer from "@/components/sections/Footer";
 import { homeHero } from "./utils/dummyData";
 const Page = () => {
   return (
@@ -16,7 +15,6 @@ const Page = () => {
       <IndustryStandard />
       <HitrustCertification />
       <Reviews/>
-      <Footer/>
     </div>
   );
 };
